@@ -1,0 +1,18 @@
+*react-native-web
+npx expo install react-native-web react-dom @expo/metro-runtime
+
+*react-native-navigation
+npm install @react-navigation/native
+expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/stack
+expo install react-native-gesture-handler
+
+*react-nativ-bottom-navigation
+npm install @react-navigation/bottom-tabs
+
+*vector0icons
+npm i @expo/vector-icons
+
+*material ---not used
+npm install @react-native-material/core
+
