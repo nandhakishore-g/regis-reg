@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
-const FeedPage = () => {
+const QueriesPage = () => {
     return (
         <View style={styles.container}>
-            <Text>Feed Page ... !!!</Text>
+            <Text>Query page  ... !!!</Text>
         </View>
     )
 }
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default FeedPage
+export default QueriesPage

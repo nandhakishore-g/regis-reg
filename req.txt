@@ -7,7 +7,7 @@ expo install react-native-screens react-native-safe-area-context
 npm install @react-navigation/stack
 expo install react-native-gesture-handler
 
-*react-nativ-bottom-navigation
+*react-native-bottom-navigation
 npm install @react-navigation/bottom-tabs
 
 *vector0icons
