@@ -16,7 +16,6 @@ import FeedPage from "./screens/FeedPage";
 import QueriesPage from "./screens/QueriesPage";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { Colors } from "react-native/Libraries/NewAppScreen";
-// import { Login, Signup, NewPage, FeedPage, QueriesPage } from "./screens";
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -31,9 +30,7 @@ function Home() {
         //tabBarActiveBackgroundColor: 'gray'
       })}>
       <Tab.Screen name="Login" component={Login} options={{
-        headerTitleAlign: 'center', headerRight: () => (
-          <MaterialCommunityIcons name="chat-plus" color={"#bdbdbd"} size={30} />
-        ), tabBarLabel: 'Home', tabBarIcon: ({ color, size }) => (
+        headerTitleAlign: 'center', tabBarLabel: 'Home', tabBarIcon: ({ color, size }) => (
           <MaterialCommunityIcons name="home" color={color} size={size} />
         )
       }} />
